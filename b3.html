@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BT Slide 3</title>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>Câu 1: Tạo form Đăng ký tài khoản</h1>
+      <form action="" autocomplete="on">
+        <label for="hoten">Họ tên:</label>
+        <br />
+        <input type="text" name="ho_ten" id="hoten" placeholder="TwinHter">
+        <br />
+        <label for="email">Email: </label>
+        <br />
+        <input type="email" name="Email" id="email" placeholder="nhdnguyen05@gmail.com" required>
+        <br />
+        <label for="passw">Mật khẩu: </label>
+        <br />
+        <input type="password" name="password" id="passw" required>
+        <br /> <br />
+        <button>Đăng ký</button>
+      </form>
+    </article>
+
+    <article>
+      <h1>Câu 2: Tạo form Đăng ký chi tiết</h1>
+      <form action="" autocomplete="on">
+        <label for="hoten2">Họ tên:</label>
+        <br />
+        <input type="text" name="ho_ten" id="hoten2">
+        <br />
+        <label for="email2">Email: </label>
+        <br />
+        <input type="email" name="Email" id="email2">
+        <br />
+        <label for="passw2">Mật khẩu: </label>
+        <br />
+        <input type="password" name="password" id="passw2" required>
+        <br />
+
+        <label>Giới tính: </label>
+        <br />
+        <input type="radio" name="Gender" id="nam"> Male <br />
+        <input type="radio" name="Gender" id="nu"> Female <br />
+        <input type="radio" name="Gender" id="khac"> Other <br />
+
+        <label for="nation">Quốc gia: </label> <br />
+        <select name="Nation" id="nation">
+          <option value="VN">Viet Nam</option>
+          <option value="EN">England</option>
+          <option value="CN">China</option>
+        </select>
+        <button>Register</button>
+      </form>
+    </article>
+
+    <article>
+      <h1>Câu 3: Tạo form Đánh giá sản phẩm</h1>
+      <form action="">
+        <label for="product_name">
+          Tên sản phẩm
+          <input type="text" name="ten_sp" id="product_name"> <br />
+        </label>
+        <label for="rating">
+          Rating <br />
+          <input type="radio" value="1" id="one-star"> 1 sao <br />
+          <input type="radio" value="2" id="two-star"> 2 sao <br />
+          <input type="radio" value="3" id="three-star"> 3 sao <br />
+        </label>
+
+        <lable for="comment">
+          Bình luận: 
+          <br />
+          <textarea name="Binh_luan" id="comment" cols="30" rows="10"></textarea>
+          <br />
+        </lable>
+        <button>Đánh giá</button>
+      </form>
+    </article>
+
+    <article>
+      <h1>Câu 4: Tạo form Đặt phòng khách sạn</h1>
+      <form action="">
+        <label for="hoten4">Họ và tên</label> 
+        <input type="text" name="Ho ten" id="hoten4">
+        <br />
+        <label for="email4">Email</label>
+        <input type="email" name="Email" id="email4" style="width: 15em;">
+        <br />
+        <label for="ngay_nhan_phong">Ngày nhận phòng:</label>
+        <input type="date" name="Ngay nhan phong" id="ngay_nhan_phong">
+        <br />
+        <label for="ngay_tra_phong">Ngày trả phòng:</label>
+        <input type="date" name="Ngay tra phong" id="ngay_tra_phong">
+        <br />
+        <label for="type_room">Loại phòng:</label>
+        <select name="Loai Phong" id="type_room">
+          <option value="Normal_room">Phòng thường</option>
+          <option value="VIP_room">Phòng VIP</option>
+        </select>
+        <br />
+        <label for="special_comment">Yêu cầu đặt biệt</label>
+        <br />
+        <textarea name="Yeu cau dac biet" id="special_comment" cols="30" rows="10"></textarea>
+        <br />
+        <button>Tìm kiếm</button>
+      </form>
+    </article>
+
+    <article>
+      <h1>Câu 5: Tạo form Tìm kiếm</h1>
+      <form action="">
+        <input type="text" name="Tim_kiem" id="" placeholder="Nhập từ khóa...">
+        <button>Tìm kiếm</button>
+      </form>
+    </article>
+  </main>
+</body>
+</html>
