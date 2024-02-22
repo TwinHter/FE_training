@@ -1,0 +1,102 @@
+/* RESET EVERYTHING
+* {
+  margin: 0;
+  padding: 0;
+} */
+#main_header {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  word-spacing: 1cm;
+}
+body {
+  background-color: white;
+  color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+
+  /* Same as above
+  font: normal 18px Arial, Helvetica, san-serif */
+  line-height: 1cm;
+}
+.box_1 {
+  background-color: gray;
+  color: white;
+}
+.box_2 {
+  background-color: yellow;
+  color: black;
+  padding: 10px;
+  margin: 50px;
+  border: 10px blue dotted;
+}
+.container {
+  /* width: 700px; */
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  /*  SAME AS ABOVE 
+  margin: 5px 10px 5px 10px;
+          top right bottom left
+  margin: 5px 10px;
+          top = bot = 5px, right = left = 10px
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px; 
+  same format as padding, border */
+
+  border-right: 5px red solid;
+  border-left: 5px red solid;
+  border-top: 5px red solid;
+  border-bottom: 5px red solid;
+    /* SAME AS ABOVE
+    border: 5px red solid; */
+
+  border-width: 5px;
+  border-bottom-width: 1px;
+  border-left-style: solid;
+
+  padding: 30px;
+  margin: 50px;
+}
+.box_1 h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  text-decoration: underline;
+  word-spacing: 0.8cm;
+  letter-spacing: 0.2em;
+}
+.Categories {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: skyblue;
+  width: 80%;
+  border: 3px red solid;
+  border-radius: 15px;
+  padding: 10px;
+  margin: auto;
+  color: black;
+}
+
+.Categories h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+.Categories ul {
+  padding: 5px;
+  list-style: square;
+}
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+/* effect when I touch the link */
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
