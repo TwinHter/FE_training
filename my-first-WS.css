@@ -1,0 +1,115 @@
+body {
+  background-color: red;
+  color: white;
+  margin: 0px;
+  width: 100%;
+}
+.clr {
+  clear: both;
+}
+.container {
+  overflow: hidden;
+}
+header .container {
+  background-color: darkcyan;
+  position: relative;
+  margin-bottom: 3px;
+}
+header .left {
+  position: relative;
+  left: 80px;
+  font-weight: bold;
+  padding-left: 20px;
+  font-size: larger;
+}
+header .left h2 {
+  float: left;
+  margin-right: 3px;
+}
+header .right {
+  position: absolute;
+  right: 100px;
+  font-weight: 600;
+  list-style-type: none;
+  font-size: larger;
+  padding-top: 2px;
+}
+header .right li {
+  float: left;
+  margin: 10px 20px;
+  list-style-type: none;
+}
+header a {
+  color: blue;
+  text-decoration: underline;
+}
+header a:hover {
+  color: yellow;
+}
+
+#showcase .container {
+  text-align: center;
+  background-image: url(./images/coding_2.jpeg);
+  padding: 20px 20px;
+  margin: 0px;
+}
+#showcase h1 {
+  font-size: xxx-large;
+}
+#showcase p {
+  color: yellow;
+  font-weight: bold;
+}
+#Newsletter .container{
+  background-color: darkcyan;
+  padding: 3px 20px;
+  position: relative;
+}
+#Newsletter .left {
+  position: relative;
+  float: left;
+  left: 50px;
+  font-size: larger;
+}
+#Newsletter .right {
+  position: absolute;
+  right: 50px;
+  padding-top: 10px ;
+  /* float: left; */
+}
+
+#Introduction .container {
+  background-color: white;
+  color: black;
+}
+#Introduction .p-box {
+  width: 30%;
+  padding: 15px;
+  float: left;
+  text-align: center;
+}
+#Introduction .p-box img {
+  width: 200px;
+  height: 200px;
+}
+.button_1 {
+  height: 45px;
+  background-color: red;
+  font-weight: bold;
+}
+.button_1:hover {
+  background-color: yellow;
+}
+input[type="email"] {
+  height: 40px;
+  width: 300px;
+}
+
+footer .container {
+  text-align: center;
+  font-size: larger;
+}
+footer .content {
+  padding: 10px;
+  font-weight: bold;
+}
