@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generate Quote</title> 
+  <link rel="stylesheet" href="Pro1.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      color: white;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      background: url('/images/purple-bg.jpg');
+    }
+    .container {
+      border: 3px gray solid;
+      border-radius:10%;
+      width: 600px;
+      height: 400px;
+    }
+    #Author {
+      font-size: larger;
+      font-style: italic;
+    }
+    #new-quote {
+      position: relative;
+      bottom: 10px;
+      background-color: black;
+      font-size:3ch;
+      padding: 3px;
+      margin: 10px;
+      font-weight: bold;
+      border: 2px yellow solid;
+    }
+    header {
+      background-color: black;
+      border: 3px white solid;
+      padding: 10px 100px;
+      margin: 30px;
+    }
+    .content {
+      font-size: 2em;
+      width: 100%;
+      padding: 20px;
+      height: 350px;
+    }
+  </style>
+</head>
+<body>
+  <header >
+    <h2 title="Những bài học ý nghĩa">Quote Generator</h2>
+  </header>
+  <section>
+    <div class="container">
+      <div class="content">
+        <div id="Quote">A</div>
+        <div id="Author">A</div>
+      </div>
+      <button id="new-quote">New Quote</button>
+    </div>
+  </section>
+  <script src="Pro1.js"></script>
+</body>
+</html>
