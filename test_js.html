@@ -11,6 +11,43 @@
     .item {
       color: red;
     }
+    #reveal-but {
+      margin: 30px;
+      font-size: larger;
+    }
+    .hidden-content {
+      display: none;
+    }
+    .hidden-content.isReveal {
+      display: block;
+    }
+    .div-1 {
+      border: 3px black solid;
+      padding: 10px;
+    }
+    .div-2 {
+      border: 3px black solid;
+      padding: 10px;
+    }
+    .div-3 {
+      border: 3px black solid;
+      padding: 10px;
+      width: 50%;
+    }
+    .delegation-container {
+      border: 3px black solid;
+      margin-top: 30px;
+      font-size: larger;
+      width: 30%;
+      
+    }
+    .delegation-container li {
+      border: 1px blue solid;
+      margin: 5px;
+    }
+    hr {
+      border: 3px red double;
+    }
   </style>
   <body>
     <header id="main-heading">
@@ -42,9 +79,46 @@
         <li class="item">Item 2</li>
         <li class="item">Item 3</li>
       </ul>
+      
+      <hr>
+      <button id="but-1" onclick="alert('I love coding')">Enter 1</button>
+      <button id="but-2">Enter 2</button>
+      <button id="but-3">Enter 3</button>
+
+      <hr>
+      <br>
+      <button id="reveal-but">Reveal</button>
+      <div class="hidden-content">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem consequatur error recusandae vero. Asperiores neque officiis accusamus maiores laborum esse.
+      </div>
+
+
+      <!-- Event Propagation -->
+      <hr>
+      <div class="div-3">
+        3
+        <div class="div-2">
+          2
+          <div class="div-1">
+            1
+            <button id="propagation-btn">Click</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Event Delegation -->
+      <hr>
+      <ul class="delegation-container">
+        <li id="football"> Football </li>
+        <li id="basketball">Basketball</li>
+        <li id="boxing">Boxing</li>
+        <li id="tennis">Tennis</li>
+        <li id="golf">Golf</li>
+      </ul>
     </section>
     
 
-    <script src="test_js_dom.js"></script>
+    <!-- <script src="test_js_dom.js"></script> -->
+    <script src="test_js_listener.js"></script>
   </body>
 </html>

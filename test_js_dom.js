@@ -1,5 +1,3 @@
-// DOM manipulation
-
 // Traverse the DOM
 
 // Parent Node Traverse
