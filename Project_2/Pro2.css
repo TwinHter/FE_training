@@ -1,0 +1,61 @@
+body {
+  background: url('/images/lightt-yellow.jpg');
+  height: 100vh;
+  position: relative; 
+}
+#open-btn {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  width: 400px;
+  font-size: 1.5rem;
+  border: 3px black solid;
+  border-radius: 10px;
+  padding: 10px;
+  color: red;
+  font-weight: bolder ;
+  transition: .5s;
+  cursor: pointer;
+}
+#open-btn:hover {
+  background-color: yellow;
+  color: blue;
+}
+.container {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 150px;
+  height: 100px;
+  padding: 10px 20px;
+
+  text-align: center;
+  font-size: 1.5rem;
+  border: 3px black double;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation-name: SLIDE;
+  animation-duration: 2s;
+}
+#close-btn {
+  font-size: 3rem;
+  background-color: white;
+  border: white;
+  cursor: pointer;
+}
+#close-btn:hover {
+  color: blue;
+}
+@keyframes SLIDE {
+   from {
+    top: -100px;
+    opacity: 0;
+   }
+   to {
+    top: 30%;
+    opacity: 1;
+   }
+}
