@@ -1,0 +1,60 @@
+body {
+  background: url('/images/tech-blue.jpg');
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  width: 600px;
+  background-color: white;
+  color: black;
+  border: 3px black solid;
+  padding: 20px;
+  border-radius: 20px;
+}
+#container #container-header {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+  color: red;
+  padding: 20px;
+}
+#question {
+  font-size: larger;
+}
+#question .question-box #show{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px black solid;
+  align-items: center;
+}
+#question .question-box #show div {
+  font-weight: bold;
+}
+#question .question-box #show #btn {
+  background-color: white;
+  border: white;
+  cursor: pointer;
+  color: #00f;
+}
+#question .question-box {
+  font-size: 2rem;
+  position: relative;
+}
+#question .question-box #hidden {
+  display: none;
+}
+#question .question-box.active #hidden {
+  display: block;
+  transition: 1s;
+  text-align: center;
+}
+#question .question-box.active #show {
+  font-size: 1.5rem;
+  transition: .5s;
+}
+#question .question-box.active #show #btn {
+  color: red;
+}
