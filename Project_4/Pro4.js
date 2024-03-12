@@ -28,7 +28,7 @@ start.addEventListener('click', (e) => {
     window.clearInterval(timeInterval);
     timeStatus = 0;
   }
-})
+});
 stopp.addEventListener('click', (e) => {
   counter.innerText = '00:00:00';
   window.clearInterval(timeInterval);
@@ -39,4 +39,4 @@ stopp.addEventListener('click', (e) => {
   s = 0;
   m = 0;
   h = 0;
-})
+});
