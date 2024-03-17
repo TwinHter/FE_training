@@ -31,7 +31,7 @@ taskButton.addEventListener('click', (e) => {
         checkButton.innerHTML = '<i class="fa fa-close"></i>'
       }
       else {
-        checkButton.innerHTML = '<i class="fa fa-check"></i>'
+        checkButton.in nerHTML = '<i class="fa fa-check"></i>'
       }
     })
     deleteButton.addEventListener('click', (e) => {
@@ -39,3 +39,4 @@ taskButton.addEventListener('click', (e) => {
     })
   } 
 });
+
