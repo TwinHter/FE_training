@@ -1,6 +1,8 @@
+console.log(1);
 const counter = document.querySelector('#counter');
 const start = document.querySelector('#start-counter');
 const stopp = document.querySelector('#reset-counter');
+console.log(counter);
 
 let s = 0, m = 0, h = 0;
 let timeStatus = 0, timeInterval = null;

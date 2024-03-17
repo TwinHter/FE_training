@@ -1,0 +1,70 @@
+body {
+  background-image: url('/images/time.jpg');
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  width: 600px;
+  font-size: 2rem;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+}
+#task-input, #confirm-input{
+  font-size: 2rem;
+}
+#task-input {
+  flex-basis: 80%;
+  margin-right: 10px;
+}
+#confirm-input {
+  flex-basis: 20%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#confirm-input:hover {
+  background-color: red;
+  color: ;
+}
+.task-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.task-container div {
+  width: 610px;
+  background-color: white;
+  display: flex;
+  margin: 5px;
+  font-size: 2rem;
+  border-radius: 10px;
+  padding: 5px;
+  border: 4px green solid;
+}
+.task-container div li {
+  flex: 5;
+  text-align: center;
+  list-style-type: none;
+}
+.task-container div button {
+  margin-left: 10px;
+  font-size: 2rem;
+  flex-basis: 8%;
+  border: 4px white solid;
+}
+.task-container div button:hover {
+  background-color: red;
+  border: 4px yellow solid;
+  color: white;
+}
+.task-container div #check-btn.active {
+  border: 4px green solid;
+  color: blue;
+}
+.task-container div li.active {
+  text-decoration: line-through;
+}
